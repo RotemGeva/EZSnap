@@ -15,28 +15,43 @@ EZSnap is a handy tool designed for Software Quality Assurance (SQA) testers, al
 The `configuration.ini` file allows you to customize the following settings:
 
 [Location]
+
 ; Set to ON to save images in a folder next to the script executable.
+
 ; Set to OFF to save images in a specific folder defined by the INI key: Path.
+
 UseDefaultFolder = ON
+
 Path = null
 
 [Names]
+
 ; Set to ON to use "EZSnap_Images" as the target folder name.
+
 ; Set to OFF to specify a different name under "FolderName."
+
 UseDefaultFolderName = ON
+
 FolderName = null
 
 ; Set to ON to use "Img" as the default naming convention for images.
+
 ; Set to OFF to use a custom naming convention defined in "ImageName."
+
 UseDefaultImageName = OFF
+
 ImageName = image
 
 [Numbering]
+
 ; Set to ON to restart the image number when creating a new target folder.
+
 RestartImgNumber = OFF
 
 [Timeout]
+
 ; Set the timeout duration for self-termination (in minutes).
+
 TimeToSelfTerminate = 60
 
 
